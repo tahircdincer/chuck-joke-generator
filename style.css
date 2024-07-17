@@ -15,11 +15,24 @@ body {
   color: white;
 }
 
+#joke {
+  font-size: 0.4rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  border: 1px solid white;
+}
+
+#joke:hover {
+  background-color: rgb(230, 118, 118);
+  transition: 1s ease-in;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 1rem;
+  color: white;
   border: 1px solid white;
   padding: 1rem;
   width: 20rem;
